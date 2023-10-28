@@ -1,0 +1,16 @@
+Index: .idea/jpa-buddy.xml
+===================================================================
+diff --git a/.idea/jpa-buddy.xml b/.idea/jpa-buddy.xml
+--- a/.idea/jpa-buddy.xml	
++++ b/.idea/jpa-buddy.xml	
+@@ -2,9 +2,5 @@
+ <project version="4">
+   <component name="JpaBuddyIdeaProjectConfig">
+     <option name="defaultUnitInitialized" value="true" />
+-<<<<<<< Updated upstream
+-    <option name="renamerInitialized" value="true" />
+-=======
+->>>>>>> Stashed changes
+   </component>
+ </project>
+\ No newline at end of file

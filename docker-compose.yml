@@ -1,0 +1,21 @@
+version: "3"
+services:
+  employee-jdbc:
+    image: sirine-jdbc
+    ports:
+      - "9091:9091"
+    networks:
+      - sirine-mysql
+    depends_on:
+      - mysqldb
+ 
+  mysqldb:
+    image: mysql:8
+    networks:
+      - sirine-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=bootdb  
+
+networks:
+  sirine-mysql:
